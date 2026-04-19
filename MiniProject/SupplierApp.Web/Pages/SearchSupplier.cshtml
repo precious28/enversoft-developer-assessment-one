@@ -1,0 +1,41 @@
+@page
+@model SupplierApp.Web.Pages.SearchSupplierModel
+@{
+    ViewData["Title"] = "Search Supplier";
+}
+
+<div class="container mt-4" style="max-width:700px">
+    <h2>Search Supplier</h2>
+
+    <form method="get">
+        <div class="input-group mb-3">
+            <input asp-for="Query" class="form-control" placeholder="Enter company name..." />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+    @if (Model.Results.Count > 0)
+    {
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr><th>Code</th><th>Name</th><th>Telephone</th></tr>
+            </thead>
+            <tbody>
+                @foreach (var s in Model.Results)
+                {
+                    <tr>
+                        <td>@s.Code</td>
+                        <td>@s.Name</td>
+                        <td>@s.Telephone</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (Model.Query != null)
+    {
+        <p class="text-muted">No suppliers found for "@Model.Query".</p>
+    }
+
+    <a href="/AddSupplier" class="btn btn-secondary">Add Supplier</a>
+</div>

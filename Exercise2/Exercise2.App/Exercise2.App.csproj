@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Exercise2.App</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Data.csv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

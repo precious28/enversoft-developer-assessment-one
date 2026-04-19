@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{B1C2D3E4-0002-0002-0002-000000000001}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SupplierApp.Web/Pages/SearchSupplier.cshtml">
+    <Files>
+      <File FileName="SupplierApp.Web/Pages/SearchSupplier.cshtml" Line="14" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SupplierApp" expanded="True">
+            <Node name="SupplierApp.Web" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="SearchSupplier.cshtml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
